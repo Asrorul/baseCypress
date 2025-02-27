@@ -8,6 +8,45 @@ This is a template project for Cypress with Cucumber BDD and TypeScript support.
 - npm or yarn
 - Visual Studio Code
 
+## Creating a New Project
+
+There are two ways to create a new project from this template:
+
+### Method 1: Using init-project.ps1 (Recommended)
+
+1. Open PowerShell and navigate to this template directory
+2. Run the initialization script:
+```powershell
+.\init-project.ps1 -ProjectName "my-new-project"
+```
+
+You can also specify a full path:
+```powershell
+.\init-project.ps1 -ProjectName "D:\Projects\my-new-project"
+```
+
+The script will:
+- Create a new project directory
+- Copy all template files
+- Initialize git repository
+- Update package.json with your project name
+- Create .gitignore
+
+After creation:
+```powershell
+cd my-new-project
+npm install
+code .
+```
+
+### Method 2: Manual Copy
+
+1. Copy this entire directory to your new project location
+2. Delete the `.git` folder in the new copy
+3. Initialize a new git repository
+4. Update the project name in `package.json`
+5. Run `npm install`
+
 ## VS Code Setup
 
 1. Required Extensions:
