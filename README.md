@@ -10,9 +10,22 @@ This is a template project for Cypress with Cucumber BDD and TypeScript support.
 
 ## Creating a New Project
 
-There are two ways to create a new project from this template:
+There are three ways to create a new project from this template:
 
-### Method 1: Using init-project.ps1 (Recommended)
+### Method 1: Using GitHub Template (Easiest)
+
+1. Click the green "Use this template" button at the top of this repository
+2. Choose a name for your new repository
+3. Select owner and visibility (public/private)
+4. Click "Create repository from template"
+5. Clone your new repository:
+```bash
+git clone https://github.com/your-username/your-new-repo.git
+cd your-new-repo
+npm install
+```
+
+### Method 2: Using init-project.ps1 (Local Script)
 
 1. Open PowerShell and navigate to this template directory
 2. Run the initialization script:
@@ -39,7 +52,7 @@ npm install
 code .
 ```
 
-### Method 2: Manual Copy
+### Method 3: Manual Copy
 
 1. Copy this entire directory to your new project location
 2. Delete the `.git` folder in the new copy
